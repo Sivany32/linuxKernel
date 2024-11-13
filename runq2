@@ -1,0 +1,4 @@
+sudo qemu-system-x86_64 -nographic --enable-kvm \
+     -drive file=/home/sivanzo/Downloads/noble-server-cloudimg-amd64.img,if=virtio \
+     -kernel arch/x86_64/boot/bzImage \
+     -append console=ttyS0\ root=/dev/vda1\ init=/bin/bash

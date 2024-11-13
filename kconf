@@ -1,0 +1,11 @@
+#!/bin/bash
+./scripts/config -e 64BIT
+./scripts/config -e SERIAL_8250 -e SERIAL_8250_CONSOLE -e TTY
+./scripts/config -e PRINTK -e PRINTK_TIME -e PRINTK_BACKTRACE -e BLK_DEV -e BLOCK
+./scripts/config -e VIRTIO_PCI -e PCI -e VIRTIO_BLK -e VIRTIO_MMIO -e VIRTIO_MENU
+./scripts/config -e VIRTIO_CONSOLE
+./scripts/config -e EXT4_FS
+./scripts/config -e DEBUG_INFO_DWARF5
+./scripts/config -e BINFMT_ELF -e BINFMT_SCRIPT -e BINFMT_MISC
+./scripts/config -e PROC_FS -e SYSFS -e DEVTMPFS
+./scripts/config -e FUTEX -e MULTIUSER
