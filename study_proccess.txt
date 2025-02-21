@@ -1,0 +1,13 @@
+1. Proc filesystem:
+	check existing entries in /proc
+	how to create a basic proc entry (return static text)
+	understand - proc_ops - structure and callback function
+2. task_struct in kernel headers
+3. process states in linux
+4. look in scheduler to see how processes are managed
+
+
+for the module:
+1. make a module that just prints one process
+2. figure out how to iterate through processes
+3. learn to format and display the information

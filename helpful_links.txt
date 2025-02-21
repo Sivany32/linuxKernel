@@ -1,0 +1,20 @@
+1. Linux Kernel Documentation:
+- Official documentation: https://www.kernel.org/doc/html/latest/
+- Process management specifically: https://www.kernel.org/doc/html/latest/admin-guide/mm/concepts.html
+- Kernel module programming: https://www.kernel.org/doc/html/latest/kernel-hacking/hacking.html
+
+2. Linux Source Code:
+- Main repository: https://github.com/torvalds/linux
+- Direct link to proc filesystem code: https://github.com/torvalds/linux/tree/master/fs/proc
+- Process management code: https://github.com/torvalds/linux/tree/master/kernel
+
+3. "Linux Device Drivers" book:
+- Latest version (3rd Edition): https://lwn.net/Kernel/LDD3/
+- PDF version at The Linux Documentation Project: https://tldp.org/LDP/ldd3/ldd3.pdf
+
+Additional useful resources:
+- The Linux Kernel Module Programming Guide: https://sysprog21.github.io/lkmpg/
+- Linux Kernel Teaching: https://linux-kernel-labs.github.io/refs/heads/master/
+- Linux Kernel Newbies: https://kernelnewbies.org/
+
+When exploring these resources, I recommend starting with the Linux Kernel Module Programming Guide as it's most beginner-friendly, then moving on to the official documentation as you get more comfortable.
